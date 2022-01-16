@@ -1,6 +1,6 @@
 # Based on ESP32 CRSF Packet Gen
- Generate some test CRSF packets with esp3
- https://github.com/AlessandroAU/ESP32-CRSF-Packet-Gen
+  -Generate some test CRSF packets with esp3
+  -https://github.com/AlessandroAU/ESP32-CRSF-Packet-Gen
  
 Thanks to https://github.com/AlessandroAU for all the nice CRSF code
 
@@ -16,14 +16,10 @@ to ARM an FC that just logs Gyro and Acc data for IMAGE stabilization in GYROflo
     Roll/Pitch/Yaw = MID
     Thrrottle      = LOW
 
-  LED      =   pin10
-  ------------------
-  Tx       =   pin33  -> UART RX on FC set to CRSF
-  ------------------
-  Rx       =   pin32  -> Not connected/needed
-  ------------------
-  ButtonA  =   pin37
-  ------------------
+   LED      =   pin10
+   Tx       =   pin33  -> UART RX on FC set to CRSF
+   Rx       =   pin32  -> Not connected/needed
+   ButtonA  =   pin37
   
   
 Arduino IDE + ESP32 core
@@ -38,14 +34,11 @@ ______________________________
 RP2040 CRSF Remote Version ( WIP )
 ______________________________
 
-LED      =   pin_
-  ------------------
-  Tx       =   pin_  -> UART RX on FC set to CRSF
-  ------------------
-  Rx       =   pin_  -> Not connected/needed
-  ------------------
-  ButtonA  =   pin_
-  ------------------
+   LED      =   pin_
+   Tx       =   pin_  -> UART RX on FC set to CRSF
+   Rx       =   pin_  -> Not connected/needed
+   ButtonA  =   pin_
+  
   
   Arduino IDE + RP2040 core
   - https://www.arduino.cc/en/software ( 1.8.19 tested )
