@@ -33,21 +33,3 @@ Arduino IDE + ESP32 core
 
 ______________________________
 
-RP2040 CRSF Remote Version ( WIP )
-______________________________
-
-    -  LED      =   pin_
-    -  Tx       =   pin_  -> UART RX on FC set to CRSF
-    -  Rx       =   pin_  -> Not connected/needed
-    -  ButtonA  =   pin_
-  
-  
-  Arduino IDE + RP2040 core
-  - https://www.arduino.cc/en/software ( 1.8.19 tested )
-  - https://github.com/earlephilhower/arduino-pico
-  - https://arduino-pico.readthedocs.io/en/latest/
-  - https://github.com/feilipu/Arduino_FreeRTOS_Library
-  - https://arduinogetstarted.com/tutorials/arduino-button-library
-
-
-( work in progress )
