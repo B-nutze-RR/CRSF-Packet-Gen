@@ -26,7 +26,8 @@ Arduino IDE + ESP32 core
 
 - https://www.arduino.cc/en/software ( 1.8.19 tested )
 - https://github.com/espressif/arduino-esp32
-- https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html 
+- https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html
+- https://arduinogetstarted.com/tutorials/arduino-button-library
 
 
 ______________________________
@@ -44,6 +45,7 @@ ______________________________
   - https://www.arduino.cc/en/software ( 1.8.19 tested )
   - https://github.com/earlephilhower/arduino-pico
   - https://arduino-pico.readthedocs.io/en/latest/
+  - https://arduinogetstarted.com/tutorials/arduino-button-library
 
 
 ( work in progress )
