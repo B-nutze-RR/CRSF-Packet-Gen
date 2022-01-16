@@ -21,11 +21,12 @@ to ARM an FC that just logs Gyro and Acc data for IMAGE stabilization in GYROflo
   Rx       =   pin32  -> Not connected/needed
   ------------------
   ButtonA  =   pin37
-
+  ------------------
+  
+  
 Arduino IDE + ESP32 
 https://github.com/espressif/arduino-esp32
-https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html ( stable works )
-
+https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html 
 
 
 Thanks to https://github.com/AlessandroAU for all the nice CRSF code
