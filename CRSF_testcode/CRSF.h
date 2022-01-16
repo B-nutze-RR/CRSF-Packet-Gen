@@ -1,3 +1,20 @@
+// M5-Stick-C Version
+// Original ESP32 CRSF Packet Gen Code by :
+//
+//    https://github.com/AlessandroAU/ESP32-CRSF-Packet-Gen
+//
+//  Modified by Nicecrash for Flowshutter and betaflight Blackbox logging purposes, GYROflow/FLOWshutter
+//
+//    Betaflight AETR1234 16 Channel
+//    AUX 1  =   ARM HIGH
+//    Roll/Pitch/Yaw = MID
+//    Thrrottle      = LOW
+//
+//  LED      =   pin10
+//  Tx       =   pin33
+//  Rx       =   pin32
+//  ButtonA  =   pin37
+
 #ifndef H_CRSF
 #define H_CRSF
 

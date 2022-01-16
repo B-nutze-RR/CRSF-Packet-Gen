@@ -1,3 +1,20 @@
+// M5-Stick-C Version
+// Original ESP32 CRSF Packet Gen Code by :
+//
+//    https://github.com/AlessandroAU/ESP32-CRSF-Packet-Gen
+//
+//  Modified by Nicecrash for Flowshutter and betaflight Blackbox logging purposes, GYROflow/FLOWshutter
+//
+//    Betaflight AETR1234 16 Channel
+//    AUX 1  =   ARM HIGH
+//    Roll/Pitch/Yaw = MID
+//    Thrrottle      = LOW
+//
+//  LED      =   pin10
+//  Tx       =   pin33
+//  Rx       =   pin32
+//  ButtonA  =   pin37
+
 #include "CRSF.h"
 #include <Arduino.h>
 #include "HardwareSerial.h"
@@ -5,8 +22,8 @@
 HardwareSerial SerialPort(2);
 HardwareSerial CRSF::Port = SerialPort;
 
-uint8_t CRSF::CSFR_TXpin_Module = 17;
-uint8_t CRSF::CSFR_RXpin_Module = 16;
+uint8_t CRSF::CSFR_TXpin_Module = 33; //M5Stick-C Grove Port TX Yellow
+uint8_t CRSF::CSFR_RXpin_Module = 32; //M5Stick-C Grove Port RX White
 
 //U1RXD_IN_IDX
 //U1TXD_OUT_IDX
