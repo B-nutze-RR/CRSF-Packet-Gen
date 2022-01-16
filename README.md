@@ -27,9 +27,10 @@ to ARM an FC that just logs Gyro and Acc data for IMAGE stabilization in GYROflo
   
   
 Arduino IDE + ESP32 core
-https://www.arduino.cc/en/software ( 1.8.19 tested )
-https://github.com/espressif/arduino-esp32
-https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html 
+
+- https://www.arduino.cc/en/software ( 1.8.19 tested )
+- https://github.com/espressif/arduino-esp32
+- https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html 
 
 
 ______________________________
@@ -47,6 +48,9 @@ LED      =   pin_
   ------------------
   
   Arduino IDE + RP2040 core
-  https://www.arduino.cc/en/software ( 1.8.19 tested )
-  https://github.com/earlephilhower/arduino-pico
-  https://arduino-pico.readthedocs.io/en/latest/
+  - https://www.arduino.cc/en/software ( 1.8.19 tested )
+  - https://github.com/earlephilhower/arduino-pico
+  - https://arduino-pico.readthedocs.io/en/latest/
+
+
+( work in progress )
