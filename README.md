@@ -6,8 +6,9 @@
 ______________________________
 M5-Stick-C ( ESP32) CRSF Remote Version
 ______________________________
-Modified for Flowshutter and Betaflight Blackbox logging purposes
-to ARM an FC that just logs Gyro and Acc data for IMAGE stabilization in GYROflow.
+
+Modified for Flowshutter and Betaflight-Blackbox logging purposes
+to ARM an FC that logs Gyro and Acc data for gyroflow.xyz 
 
     Betaflight AETR1234 16 Channel
     AUX 1  =   ARM HIGH
