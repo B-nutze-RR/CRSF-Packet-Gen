@@ -1,6 +1,6 @@
 # Based on ESP32 CRSF Packet Gen
-  -Generate some test CRSF packets with esp3
-  -https://github.com/AlessandroAU/ESP32-CRSF-Packet-Gen
+    - Generate some test CRSF packets with esp32
+    - https://github.com/AlessandroAU/ESP32-CRSF-Packet-Gen
  
 
 ______________________________
