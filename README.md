@@ -40,6 +40,7 @@ Arduino IDE + ESP32 core
 - https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html
 - https://github.com/feilipu/Arduino_FreeRTOS_Library
 - https://arduinogetstarted.com/tutorials/arduino-button-library
+- https://github.com/adafruit/Adafruit_NeoPixel
 
 
 ______________________________
