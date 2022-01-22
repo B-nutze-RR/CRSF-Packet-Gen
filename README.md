@@ -4,7 +4,7 @@
  
 
 ______________________________
-M5-Stick-C ( ESP32) CRSF Remote Version
+M5-Stick-C / M5-Stamp-C3 ( ESP32 pico/C3 ) CRSF Remote Version
 ______________________________
 
 Modified for Flowshutter and Betaflight-Blackbox logging purposes
