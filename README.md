@@ -16,21 +16,23 @@ to ARM an FC that just logs Gyro and Acc data for IMAGE stabilization in GYROflo
 
 
 M5-stick-C:
-    -  LED      =   pin10
-    -  Tx       =   pin33  -> UART RX on FC set to CRSF
-    -  Rx       =   pin32  -> Not connected/used right now
-    -  ButtonA  =   pin37
+   -  LED      =   pin10
+   -  Tx       =   pin33  -> UART RX on FC set to CRSF
+   -  Rx       =   pin32  -> Not connected/used right now
+   -  ButtonA  =   pin37
   
-M5-stamp-c3:
-    -  LED      =   pin2
-    -  Tx       =   pin21  -> UART RX on FC set to CRSF
-    -  Rx       =   pin20  -> Not connected/used right now
-    -  ButtonA  =   pin3
+M5-stamp-C3:
+
+   -  LED      =   pin2
+   -  Tx       =   pin21  -> UART RX on FC set to CRSF
+   -  Rx       =   pin20  -> Not connected/used right now
+   -  ButtonA  =   pin3
   
 
 Arduino IDE + ESP32 core
-+ Neopixel
-+ ezbutton
+
+  +  Neopixel
+  +  Ezbutton
 
 - https://www.arduino.cc/en/software ( 1.8.19 tested )
 - https://github.com/espressif/arduino-esp32
